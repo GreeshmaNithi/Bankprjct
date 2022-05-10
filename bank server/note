@@ -1,0 +1,81 @@
+                  Server creation Express/Node JS
+
+                                commands
+
+                          1.create package.json ...... npm init
+                                
+                          2. Install Express........ npm i express
+
+                          3. to run the server....... node index.js
+
+                          4. to install nodemon...... npm i -g nodemon
+
+                          5. install jsonwebtoken ...... npm i jsonwebtoken
+
+                          6.install mongoose ........ npm i mongoose
+
+                          7. install cors .......... npm i cors
+
+
+
+
+                steps Server Creation
+
+            1. Create a folder for Server
+
+            2. Create package.json
+
+            3. Install express
+
+            4. create index.js file
+
+            5. Import express in index.js
+
+            6. create an application using express
+
+            7. set up the port number 
+
+            8. Resolve the http request from the client
+
+            9. run the server
+
+            10. parse json data in index.js
+
+            11. Middlewares : (req,res,next)=>{}
+
+                11.1 Application specific middlewares 
+
+                11.2 Router specific middleware
+
+            12. JWT token - to authenticate 
+
+                12.1. Token generation  - sign()
+
+                12.2.Token validation   - verify()
+
+            13. Database connection
+
+                13.1. install mongoose
+
+                13.2. import mongoose
+
+                13.3. define connection string
+
+                13.4. create model
+
+                13.5. export model
+                
+            14. Promise - to deal asynchronous events
+
+                14.1. .then() - resolved state
+
+                14.2.  catch() - reject state
+
+            15. cors - cross origin resource sharing 
+                        the protocol used to share data between 2 different port nmbers
+
+                15.1. install cors
+
+                15.2. import index.js
+
+                15.3. using cors to specify the origin in server app
